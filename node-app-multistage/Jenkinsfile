@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Dev') {
+            steps {
+                // Get some code from github repository
+                git "https://github.com/kennethihezie/learn-jenkins.git"
+            }
+        }
+
+        stage('UAT') {
+            steps {
+                // Get some code from github repository
+                   git "https://github.com/kennethihezie/learn-jenkins.git"
+            }
+        }
+    }
+}
