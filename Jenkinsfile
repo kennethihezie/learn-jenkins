@@ -28,10 +28,10 @@ pipeline {
             }
         }
 
-        stage('Start application') {
-            steps {
-                sh 'npm run start'
-            }
-        }
+        // stage('Start application') {
+        //     steps {
+        //         sh 'npm run start'
+        //     }
+        // }
     }
 }
